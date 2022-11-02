@@ -3,19 +3,19 @@
 The following assumes you have the plugin installed via
 
 ```shell
-kubectl krew install {{ .PluginName }}
+kubectl krew install krew-plugin-template-test
 ```
 
 ### Scan images in your current kubecontext
 
 ```shell
-kubectl {{ .PluginName }}
+kubectl krew-plugin-template-test
 ```
 
 ### Scan images in another kubecontext
 
 ```shell
-kubectl {{ .PluginName }} --context=context-name
+kubectl krew-plugin-template-test --context=context-name
 ```
 
 ## How it works
